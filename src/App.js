@@ -7,8 +7,8 @@ import './App.css'; // custom styles for the component
 export default function SequencerRealtime({
   pollInterval = 5000,
   socketUrl = null,
-  leftSequenceUrl = 'http://localhost:3000/api/sequence',
-  rightSequenceUrl = 'http://localhost:3000/api/sequence/right'
+  leftSequenceUrl = 'http://10.40.40.215:3000/api/sequence',
+  rightSequenceUrl = 'http://10.40.40.215:3000/api/sequence/right'
 }) {
   const [leftRows, setLeftRows] = useState([]);
   const [leftPending, setLeftPending] = useState([]);
