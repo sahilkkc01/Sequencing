@@ -3,3 +3,13 @@
 .sequencer-tentative { background: #fff7e6; } /* pale yellow for tentative */
 .sequencer-img { max-height: 140px; object-fit: contain; border-radius: 4px; border: 1px solid #e9ecef; }
 .list-group-item .fw-medium { font-weight: 600; }
+
+.table-fixed-head { max-height: 56vh; overflow: auto; }
+.table-fixed-head thead th { position: sticky; top: 0; background: white; z-index: 2; }
+
+.sequencer-modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.45); display: flex; align-items: center; justify-content: center; z-index: 1050; }
+.sequencer-modal { background: #fff; padding: 16px; border-radius: 8px; width: min(960px, 95%); max-height: 90vh; overflow: auto; }
+
+.table thead th { font-size: 12px; }
+.table td, .n.table th { vertical-align: middle; }
+
